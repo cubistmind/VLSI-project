@@ -20,12 +20,13 @@ The processor natively supports the base RV32I instruction set architecture, exe
 ## 📊 Simulation Results
 The CPU's instruction decoding and execution have been verified via cycle-accurate simulation. Below is a waveform trace from GTKWave proving the correct progression of the Program Counter, instruction fetching, and ALU operations:
 
-![Simulation Proof](Screenshot%202026-09-29%20044228_2.png)
+![Simulation Proof]<img width="1917" height="1075" alt="Screenshot 2026-09-29 044228" src="https://github.com/user-attachments/assets/d82a877e-dd93-48ab-9651-826a62f44f69" />
+
 
 ## 🚀 Verification & Simulation
 The design is verified locally using **Icarus Verilog** for compilation and **GTKWave** for waveform analysis.
 
-### 1. Compile the Design
-To compile the core modules and the testbench together, run the following from the root directory:
-```bash
-iverilog -o SIM/cpu_sim RTL/*.v Testbench/*.v
+## Layout(GDS file)
+<video src="https://github.com/your-username/your-repo/releases/download/v1.0/Screen Recording 2026-09-28 044221.mp4" controls width="100%"></video>
+
+
