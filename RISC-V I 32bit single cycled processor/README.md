@@ -17,6 +17,11 @@ The processor natively supports the base RV32I instruction set architecture, exe
 * **Supported Instructions:** R-Type, I-Type, S-Type, B-Type, U-Type, and J-Type.
 * **Key Features:** Unified Program Counter adder logic, dual ALU operand multiplexers for dynamic $PC$-relative arithmetic, and dedicated `LUI` bypass paths.
 
+## 📊 Simulation Results
+The CPU's instruction decoding and execution have been verified via cycle-accurate simulation. Below is a waveform trace from GTKWave proving the correct progression of the Program Counter, instruction fetching, and ALU operations:
+
+![Simulation Proof](Screenshot%202026-09-29%20044228_2.png)
+
 ## 🚀 Verification & Simulation
 The design is verified locally using **Icarus Verilog** for compilation and **GTKWave** for waveform analysis.
 
