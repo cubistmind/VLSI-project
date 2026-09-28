@@ -1,0 +1,43 @@
+$date
+	Mon Sep 21 08:27:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module immgen_tb $end
+$var wire 32 ! imm [31:0] $end
+$var reg 32 " inst [31:0] $end
+$scope module uut $end
+$var wire 32 # inst [31:0] $end
+$var wire 7 $ opcode [6:0] $end
+$var reg 32 % imm [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111111111111111111111111111011 %
+b10011 $
+b11111111101100000000000010010011 #
+b11111111101100000000000010010011 "
+b11111111111111111111111111111011 !
+$end
+#10000
+b10000 !
+b10000 %
+b100011 $
+b1000011010100000100011 "
+b1000011010100000100011 #
+#20000
+b10010001101000101000000000000 !
+b10010001101000101000000000000 %
+b110111 $
+b10010001101000101001000110111 "
+b10010001101000101001000110111 #
+#30000
