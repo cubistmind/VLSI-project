@@ -10,7 +10,7 @@ A clean, fully verified, single-cycle 32-bit RISC-V (RV32I) soft-core processor 
 
 * **`RTL/`**: Contains all synthesizable Verilog design modules (ALU, Control Unit, Register File, Program Counter, Instruction/Data Memory, and the top-level CPU datapath).
 * **`Testbench/`**: Contains the Verilog testbench (`cpu_tb.v`) and the compiled machine code instructions (`instructions.hex`) used to verify the processor's functionality.
-* **`SIM/`**: Designated for simulation automation scripts (e.g., Makefiles, Bash scripts, or GTKWave `.gtkw` save files). *Note: Compiled binaries and `.vcd` waveform dumps are git-ignored and not uploaded.*
+* **`SIM/`**: All the VCD files are enlisted there.
 
 ## ⚙️ Core Architecture
 The processor natively supports the base RV32I instruction set architecture, executing instructions in a single clock cycle. 
