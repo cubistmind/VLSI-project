@@ -27,6 +27,6 @@ The CPU's instruction decoding and execution have been verified via cycle-accura
 The design is verified locally using **Icarus Verilog** for compilation and **GTKWave** for waveform analysis.
 
 ## Layout(GDS file)
-<video src="https://github.com/cubistmind/VLSI-project/releases/download/1/Screen.Recording.2026-09-28.044221.mp4" controls width="100%"></video>
+https://github.com/cubistmind/VLSI-project/releases/download/1/Screen.Recording.2026-09-28.044221.mp4
 
 
