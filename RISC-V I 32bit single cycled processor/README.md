@@ -27,7 +27,7 @@ The CPU's instruction decoding and execution have been verified via cycle-accura
 The design is verified locally using **Icarus Verilog** for compilation and **GTKWave** for waveform analysis.
 
 ## Layout(GDS file)
-[Download GDS Layout File]("C:\Users\CUBISTMIND\Downloads\rv32i_cpu.gds")
 
+[Download GDS Layout File](rv32i_cpu.gds)
 
 
